@@ -17,7 +17,7 @@ body{
 .main{
   padding: 20px;
   text-align: center;
-  width:400px;
+  width:350px;
   height:540px;
   background: linear-gradient(45deg,#AE3DFF,#DA2D86);
   overflow: auto;
