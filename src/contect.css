@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.images{
+    background:linear-gradient(45deg,#DA2D86,#EC3753,#FF763B);
+    flex-direction: column;
+    min-height: 93.5vh;
+}
+
+.images .input{
+    text-align: center;
+    padding: 20px;
+}
+
+.images .input input{
+    border: none;
+    background: transparent;
+    width: 15%;
+    height: auto;
+    outline: none;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4px 0;
+    margin-right: 7px;
+    color: yellow;
+}
+.images .image{
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width:800px){
+    .images .input input{
+        
+        width: 35%;
+        
+    }
+            .images .image img{
+                width: 450px;
+                height: 300px;
+            }
+
+}

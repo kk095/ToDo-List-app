@@ -1,65 +1,29 @@
-import React, {useState } from 'react';
+import React from 'react';
 import './App.css';
-import Button from '@material-ui/core/Button';
-import AddIcon from '@material-ui/icons/Add';
-import DeleteIcon from '@material-ui/icons/Delete';
+import ToDoList from "./ToDoList.js"
+import { Route, Switch } from "react-router-dom"  
+import Contect from './contect.js';
+import Menu from './Menu';
 
 
 
 function App(){
-  let[task,updateTask]=useState()
-  let[arr,updateArr]=useState([])
-  function change(e){
-   updateTask(e.target.value)
-  }
- 
-  function mkarr(){
-     updateArr((prev)=>{
-       return(
-       [...prev,task]
-       )
-     })
-     updateTask('')
-  }
+  
   return(
     <>
-    <div className="main">
-      <h1>ToDo List 📝</h1>
-      <input type="text" placeholder="write your task" onChange={change} value={task}/>
-      <Button className="btn" onClick={mkarr}>
-        <AddIcon className="plus"></AddIcon>
-      </Button>
-      <ul>
-       {
-         arr.map((value,index)=>{
-         return <List index={index} value={value} />
-         })
-       }
-     </ul>
-    </div>
+    <Menu/>
+    <Switch>
 
+    <Route exact path="/" component={ToDoList}/>
+    <Route  path="/contect/" component={Contect}/>
+    
+    </Switch>
+   
     </>
   )
 }
   
 
-function List(props){
-  let [line,ch]=useState(false)
-  let [dis,disp]=useState(true)
-  
-    let cl=()=>{
-      ch(true)
-      disp(false)
-    }
-   
-  return(
-     <>
-           <li key={props.index} style={{textDecoration:line ? 'line-through':'none'}}>
-           {props.index+1}. {props.value} <DeleteIcon className="del" style={{display:dis ? 'inline-block':'none'}} id={props.index} onClick={cl} /></li>
-       
-      
-     </>
-   )
-      }
+
 
     export default App;
