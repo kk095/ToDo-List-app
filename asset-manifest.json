@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/ToDo-List-app/static/css/main.59e8f0a4.chunk.css",
-    "main.js": "/ToDo-List-app/static/js/main.acfff7ac.chunk.js",
-    "main.js.map": "/ToDo-List-app/static/js/main.acfff7ac.chunk.js.map",
-    "runtime-main.js": "/ToDo-List-app/static/js/runtime-main.6ce1d097.js",
-    "runtime-main.js.map": "/ToDo-List-app/static/js/runtime-main.6ce1d097.js.map",
-    "static/js/2.d4f2509f.chunk.js": "/ToDo-List-app/static/js/2.d4f2509f.chunk.js",
-    "static/js/2.d4f2509f.chunk.js.map": "/ToDo-List-app/static/js/2.d4f2509f.chunk.js.map",
-    "index.html": "/ToDo-List-app/index.html",
-    "precache-manifest.fb0af677421efd117a6b91c90e9e8ead.js": "/ToDo-List-app/precache-manifest.fb0af677421efd117a6b91c90e9e8ead.js",
-    "service-worker.js": "/ToDo-List-app/service-worker.js",
-    "static/css/main.59e8f0a4.chunk.css.map": "/ToDo-List-app/static/css/main.59e8f0a4.chunk.css.map",
-    "static/js/2.d4f2509f.chunk.js.LICENSE.txt": "/ToDo-List-app/static/js/2.d4f2509f.chunk.js.LICENSE.txt"
+    "main.css": "/ToDo-List-app/contect/static/css/main.59e8f0a4.chunk.css",
+    "main.js": "/ToDo-List-app/contect/static/js/main.b508d3d0.chunk.js",
+    "main.js.map": "/ToDo-List-app/contect/static/js/main.b508d3d0.chunk.js.map",
+    "runtime-main.js": "/ToDo-List-app/contect/static/js/runtime-main.116f569e.js",
+    "runtime-main.js.map": "/ToDo-List-app/contect/static/js/runtime-main.116f569e.js.map",
+    "static/js/2.d4f2509f.chunk.js": "/ToDo-List-app/contect/static/js/2.d4f2509f.chunk.js",
+    "static/js/2.d4f2509f.chunk.js.map": "/ToDo-List-app/contect/static/js/2.d4f2509f.chunk.js.map",
+    "index.html": "/ToDo-List-app/contect/index.html",
+    "precache-manifest.2f21fd69c7075a57feb0d5d751ffaa1f.js": "/ToDo-List-app/contect/precache-manifest.2f21fd69c7075a57feb0d5d751ffaa1f.js",
+    "service-worker.js": "/ToDo-List-app/contect/service-worker.js",
+    "static/css/main.59e8f0a4.chunk.css.map": "/ToDo-List-app/contect/static/css/main.59e8f0a4.chunk.css.map",
+    "static/js/2.d4f2509f.chunk.js.LICENSE.txt": "/ToDo-List-app/contect/static/js/2.d4f2509f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.6ce1d097.js",
+    "static/js/runtime-main.116f569e.js",
     "static/js/2.d4f2509f.chunk.js",
     "static/css/main.59e8f0a4.chunk.css",
-    "static/js/main.acfff7ac.chunk.js"
+    "static/js/main.b508d3d0.chunk.js"
   ]
 }
