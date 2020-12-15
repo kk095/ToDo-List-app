@@ -15,7 +15,7 @@ function App(){
     <Switch>
 
     <Route exact path="/" component={ToDoList}/>
-    <Route  path="/contect/" component={Contect}/>
+    <Route exact  path="/contect/" component={Contect}/>
     
     </Switch>
    
