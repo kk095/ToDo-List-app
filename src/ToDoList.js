@@ -26,7 +26,7 @@ function ToDoList(){
     <>
     <div className="root">
     <div className="main">
-      <h1>ToDo List 📝</h1>
+      <h1>ToDo List <span> 📝<span/></h1>
       <input type="text" placeholder="write your task" onChange={change} value={task}/>
       <Button className="btn" onClick={mkarr}>
         <AddIcon className="plus"></AddIcon>
