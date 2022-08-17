@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing ', cursive;
+    /* font-family: 'Lemonada', cursive; */
+  }
+  .root{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background:linear-gradient(45deg,#DA2D86,#EC3753,#FF763B);
+  }
+  .root .main{
+    padding: 20px;
+    text-align: center;
+    width:350px;
+    height:540px;
+    background: linear-gradient(45deg,#AE3DFF,#DA2D86);
+    overflow: auto;
+    border-radius: 20px;
+    box-shadow: 3px 3px 6px #FF763B;
+  }
+  .root .main h1{
+    color: #66d11a;
+    font-size: 2.5em;
+    text-align: center;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px black;
+  }
+  .root .main input{
+    border: none;
+    background: transparent;
+    width: 70%;
+    height: auto;
+    outline: none;
+    border-bottom: 2px solid yellow;
+    text-align: center;
+    font-size: 1.5em;
+    padding: 4px 0;
+    margin-right: 7px;
+    color: yellow;
+  }
+  input::placeholder{
+    color:yellow;
+    font-weight: 700;
+    font-family: 'Dancing Script', cursive;
+  }
+  .root .main button{
+    background-color: #66d11a;
+    border: none;
+    border-radius: 5px;
+  }
+  .sort{
+    text-align: center;
+    height: auto;
+    width: 100px;
+    float: right;
+  }
+  .sort li{
+    list-style: none;
+  }
+  .sort h6{
+    text-align: center;
+  }
+  .root .main ul{
+    text-align: left;
+    margin-left: 25px;
+    margin-top: 30px;
+  }
+  .root .main ul li{
+    color: yellow;
+    margin:5px 0;
+    font-size: 1.2em;
+    list-style: none;
+  }
+  .plus{
+    color: yellow;
+  }
+  .del{
+    color: black;
+    width:25px;
+    height: 25px;
+    margin-left: 10px;
+   
+  }
+  .del:hover{
+    color: red;
+    cursor: pointer;
+  }
+  .del:active{
+    width: 20px;
+    height: 20px;
+  }
